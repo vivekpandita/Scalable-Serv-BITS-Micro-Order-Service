@@ -1,0 +1,58 @@
+[
+    {
+        "id": 80001,
+        "name": "Harry Potter & Philosopher Stone",
+        "author": "JK Rowling",
+        "publisher": "Warner Bros",
+        "price": 200.0,
+        "printYear": 1998
+    },
+    {
+        "id": 80002,
+        "name": "Harry Potter & Chambers of Secret",
+        "author": "JK Rowling",
+        "publisher": "Warner Bros",
+        "price": 250.0,
+        "printYear": 1999
+    },
+    {
+        "id": 80003,
+        "name": "Harry Potter & Prisoner of Azkaban",
+        "author": "JK Rowling",
+        "publisher": "Warner Bros",
+        "price": 150.0,
+        "printYear": 1999
+    },
+    {
+        "id": 80004,
+        "name": "Song of Ice & Fire",
+        "author": "George RR Martin",
+        "publisher": "HBO",
+        "price": 1150.0,
+        "printYear": 2005
+    },
+    {
+        "id": 80005,
+        "name": "Half GirlFriend",
+        "author": "Chetan Bhagat",
+        "publisher": "Penguin",
+        "price": 25.7,
+        "printYear": 2012
+    },
+    {
+        "id": 80006,
+        "name": "Almanak by Naval",
+        "author": "Astron Bulleyan",
+        "publisher": "Rajat Word Press Ltd",
+        "price": 99.0,
+        "printYear": 2015
+    },
+    {
+        "id": 80007,
+        "name": "Discovery of India",
+        "author": "JL Nehru",
+        "publisher": "Sams",
+        "price": 2000.5,
+        "printYear": 2012
+    }
+]

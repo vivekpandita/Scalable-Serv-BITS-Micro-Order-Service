@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "userId": 9991,
+        "orderItems": [
+            {
+                "id": 1,
+                "book": {
+                    "id": 80001,
+                    "name": "Harry Potter & Philosopher Stone",
+                    "author": "JK Rowling",
+                    "publisher": "Warner Bros",
+                    "price": 200.0,
+                    "printYear": 1998
+                },
+                "quantity": 1,
+                "totalPrice": 200.0
+            }
+        ],
+        "totalOrderPrice": 200.0,
+        "orderPlacedOn": null,
+        "orderStatus": "PENDING",
+        "paymentMethod": "COD",
+        "deliveryDate": null,
+        "shippingAddress": "NIBM, Pune, Maharashtra - 411048"
+    },
+    {
+        "id": 2,
+        "userId": 9991,
+        "orderItems": [
+            {
+                "id": 2,
+                "book": {
+                    "id": 80001,
+                    "name": "Harry Potter & Philosopher Stone",
+                    "author": "JK Rowling",
+                    "publisher": "Warner Bros",
+                    "price": 200.0,
+                    "printYear": 1998
+                },
+                "quantity": 1,
+                "totalPrice": 200.0
+            },
+            {
+                "id": 3,
+                "book": {
+                    "id": 80002,
+                    "name": "Harry Potter & Chambers of Secret",
+                    "author": "JK Rowling",
+                    "publisher": "Warner Bros",
+                    "price": 250.0,
+                    "printYear": 1999
+                },
+                "quantity": 4,
+                "totalPrice": 1000.0
+            }
+        ],
+        "totalOrderPrice": 1200.0,
+        "orderPlacedOn": null,
+        "orderStatus": "CONFIRMED",
+        "paymentMethod": "COD",
+        "deliveryDate": null,
+        "shippingAddress": "NIBM, Pune, Maharashtra - 411048"
+    }
+]

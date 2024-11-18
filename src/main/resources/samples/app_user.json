@@ -1,0 +1,23 @@
+[
+    {
+        "id": 9991,
+        "name": "Rajat",
+        "email": "rajt@gmail.com",
+        "contactNumber": "223333",
+        "address": "Talab Tillo Jammu"
+    },
+    {
+        "id": 9992,
+        "name": "Vivek",
+        "email": "ViveRock@gmail.com",
+        "contactNumber": "9923232",
+        "address": "Talab Tillo Jammu, J&K"
+    },
+    {
+        "id": 9993,
+        "name": "Mike",
+        "email": "mike@gmail.com",
+        "contactNumber": "233342234",
+        "address": "NIBM Pune"
+    }
+]
