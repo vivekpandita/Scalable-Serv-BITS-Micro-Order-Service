@@ -1,5 +1,6 @@
 package com.bits.orderservice.orderservice.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,6 +15,10 @@ public class AppUser {
 	private String email;
 	private String contactNumber;
 	private String address;
+    @Column(nullable = false)
+	private String userName;
+    @Column(nullable = false)
+	private String password;
 
 	public Long getId() {
 		return id;
@@ -53,6 +58,22 @@ public class AppUser {
 
 	public void setAddress(String address) {
 		this.address = address;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getPassword() {
+		return "***********";
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 }

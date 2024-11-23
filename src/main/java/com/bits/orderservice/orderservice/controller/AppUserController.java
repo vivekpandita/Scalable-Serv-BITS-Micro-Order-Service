@@ -30,6 +30,16 @@ public class AppUserController {
 		return appUserRepository.save(body);
 	}
 
+	@RequestMapping(value = "/signUp", method = RequestMethod.POST)
+	public String signUp(@RequestBody(required = false) AppUser body) {
+		try {
+			AppUser a = appUserRepository.save(body);
+			return "Sign Up Successful for " + a.getName() + " with user Id: " + a.getId();
+		} catch (Exception e) {
+			return "Sign UP Failed";
+		}
+	}
+
 	@RequestMapping(value = "/list", method = RequestMethod.GET)
 	public List<AppUser> list() {
 		return appUserRepository.findAll();

@@ -34,4 +34,9 @@ public class BookController {
 	public List<Book> list() {
 		return bookRepository.findAll();
 	}
+	
+	@RequestMapping(value = "/searchByName/{key}", method = RequestMethod.GET)
+	public List<Book> list(@PathVariable(name = "key") String key) {
+		return bookRepository.searchBooks(key);
+	}
 }

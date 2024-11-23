@@ -1,9 +1,9 @@
 drop table if exists app_user; 
-create table app_user (id bigint not null, address varchar(255), contact_number varchar(255), email varchar(255), name varchar(255), primary key (id));
+create table app_user (id bigint not null, address varchar(255), contact_number varchar(255), email varchar(255), name varchar(255), user_name varchar(255), password varchar(255), primary key (id));
 
-insert into app_user (address,contact_number,email,name,id) values ('Talab Tillo Jammu','223333','rajt@gmail.com','Rajat',9991);
-insert into app_user (address,contact_number,email,name,id) values ('Talab Tillo Jammu, J&K','9923232','ViveRock@gmail.com','Vivek',9992);
-insert into app_user (address,contact_number,email,name,id) values ('NIBM Pune','233342234','mike@gmail.com','Mike',9993);
+insert into app_user (address,contact_number,email,name,id, user_name, password) values ('Talab Tillo Jammu','223333','rajt@gmail.com','Rajat',9991, 'u1','1');
+insert into app_user (address,contact_number,email,name,id, user_name, password) values ('Talab Tillo Jammu, J&K','9923232','ViveRock@gmail.com','Vivek',9992, 'u2','2');
+insert into app_user (address,contact_number,email,name,id, user_name, password) values ('NIBM Pune','233342234','mike@gmail.com','Mike',9993,'u3','3');
 
 
 drop table if exists book; 
